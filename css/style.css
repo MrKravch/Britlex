@@ -1,0 +1,45 @@
+/* -----fonts----- */
+
+/* main font color #8F95A5 */
+
+/* full black color(title) #000000 */
+
+/* links and subtitle color #263238 */
+
+/* main button text color #FFFFFF */
+
+/* logo second text color #939393 */
+
+/* numbers color #2A3246 */
+
+/* per-month color #546269 */
+
+/* -----main font Poppins----- */
+
+/* -----colors----- */
+
+/* second background color #F5F5F5 */
+
+/* button background color #263238 */
+
+:root {
+  /* TEXT */
+  --main-font-color: #8f95a5;
+  --title-black-color: #000000;
+  --link-subtitle-color: #263238;
+  --numbers-color: #2a3246;
+  --subscription-color: #546269;
+  /* colors */
+  --full-black-color: #000000;
+  --full-white-color: #ffffff;
+
+  --second-backgr-color: #f5f5f5;
+  --btn-backgr-color: #263238;
+  --subscription-backgr-color: #eeeeee;
+}
+
+body {
+  color: var(--main-font-color);
+  background-color: var(--full-white-color);
+  font-family: Poppins, sans-serif;
+}
