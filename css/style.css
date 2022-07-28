@@ -43,3 +43,169 @@ body {
   background-color: var(--full-white-color);
   font-family: Poppins, sans-serif;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  display: block;
+}
+
+.section-title {
+  font-weight: 600;
+  color: #000000;
+  font-size: 48px;
+  line-height: 1.5;
+}
+
+.section-subtitle {
+  color: #263238;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+.primary-btn {
+  color: #ffffff;
+  background-color: #263238;
+  border-radius: 10px;
+}
+
+/* -----Header----- */
+
+.logo {
+  font-size: 36px;
+  line-height: calc(54 / 36);
+  color: #939393;
+}
+
+.logo-text {
+  color: #000000;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(30 / 20);
+  color: #263238;
+}
+
+.header-btn {
+  color: #000000;
+  font-size: 20px;
+  line-height: calc(30 / 20);
+  letter-spacing: 0.03em;
+
+  background-color: #ffffff;
+}
+
+/* -----Hero----- */
+
+.hero-title {
+  color: #000000;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: calc(80 / 64);
+}
+
+.hero-desc {
+  font-size: 24px;
+  line-height: calc(36 / 24);
+}
+
+.hero-btn {
+  font-size: 36px;
+  line-height: calc(54 / 36);
+  letter-spacing: 0.03em;
+}
+
+/* ----- skills----- */
+
+.skills-item {
+  background-color: #f5f5f5;
+}
+
+.skills-subtitle {
+  font-size: 30px;
+  line-height: calc(45 / 30);
+}
+
+.skills-desc {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+}
+
+/* -----about----- */
+
+.about-desc {
+  font-size: 20px;
+  line-height: calc(36 / 20);
+}
+
+.about-info {
+  font-size: 20px;
+  line-height: calc(30 / 20);
+}
+
+.about-info-text {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: calc(72 / 48);
+
+  color: #2a3246;
+}
+
+/* -----price----- */
+
+.price-desc {
+  font-size: 20px;
+  line-height: calc(30 / 20);
+}
+
+.price-btn {
+  font-size: 18px;
+  line-height: calc(27 / 18);
+  color: #546269;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+
+.price-btn-number {
+  font-size: 24px;
+  line-height: calc(36 / 24);
+  color: #263238;
+}
+
+/* -----contact us----- */
+
+.contact-desc {
+  font-size: 20px;
+  line-height: calc(30 / 20);
+}
+
+/* -----footer----- */
+
+.footer-link {
+  color: inherit;
+  font-size: 24px;
+  line-height: calc(36 / 24);
+  letter-spacing: 0.02em;
+}
